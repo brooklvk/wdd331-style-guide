@@ -1,2 +1,2 @@
 # wdd331-style-guide
-Style guide assignment (not final Zen Garden project) 
+Style guide assignment for Zen Garden (not final Zen Garden project) 
