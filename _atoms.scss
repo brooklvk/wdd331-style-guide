@@ -1,7 +1,7 @@
 
 @use 'variables' as *;
 @mixin set-head-font($header-size: 30rem, $line-height: normal, $heading-font: $fonts-header) {
-font-family: $heading-font;
+font-family: $fonts-header;
 font-size: $header-size;
 line-height: $line-height;
 }
