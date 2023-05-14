@@ -23,7 +23,7 @@ html {
   padding: 1rem;
 }
 
-article {
+div[role=article] {
   display: grid;
   grid-template-columns: 1fr;
 }

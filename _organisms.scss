@@ -6,6 +6,6 @@
   display: grid;
   grid-template-columns: $col;
 }
-article {
+div[role="article"] {
   @include grid(1fr);
 }
