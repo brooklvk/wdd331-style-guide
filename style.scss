@@ -2,12 +2,3 @@
 @use "atoms";
 @use "molecules";
 @use "organisms";
-
-@mixin grid($col...) {
-  display: grid;
-  grid-template-columns: $col;
-}
-
-.main {
-  @include grid(2fr);
-}
