@@ -1,25 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=League+Spartan&display=swap");
 h1, h3 {
   font-family: "Comfortaa", cursive;
-  color: #DB6C0F;
+  color: #db6c0f;
   margin: 0;
 }
 
 h2, p {
   font-family: "League Spartan", sans-serif;
-  color: #F0E3C0;
+  color: #f0e3c0;
 }
 
 html {
-  background-color: #0D1F30;
+  background-color: #0d1f30;
   padding: 2rem;
 }
 
-h1 {
-  font-weight: 315;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #DB6C0F;
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements {
   padding: 1rem;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 /*# sourceMappingURL=style.css.map */

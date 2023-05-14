@@ -1,7 +1,14 @@
+@use "variables" as *;
+@use "atoms";
+// h1 {
+// @include atoms.title-uppercase($accent1);
+// padding: 1rem;
+// }
 
-@use 'variables' as *;
-@use 'atoms';
-h1 {
-@include atoms.title-uppercase($accent1);
-padding: 1rem;
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements {
+  padding: $div-padding;
 }

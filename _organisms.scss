@@ -1,0 +1,11 @@
+@use "variables";
+@use "atoms";
+@use "molecules";
+
+@mixin grid($col...) {
+  display: grid;
+  grid-template-columns: $col;
+}
+article {
+  @include grid(1fr);
+}
