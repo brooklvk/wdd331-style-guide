@@ -7,5 +7,5 @@
   grid-template-columns: $col;
 }
 article {
-  @include grid(2fr);
+  @include grid(1fr);
 }
