@@ -100,5 +100,23 @@ footer a {
   list-style-type: none;
   text-decoration: none;
 }
+.page-wrapper{
+  display: grid;
+  max-width: 1000px;
+  margin: 200px auto;
+  grid-gap: 10px 50px;
+  grid-template-columns: 3fr 12fr 5fr;
+}
+header{
+  display:flex;
+  grid-column: 1/-1;/* span all the way accross the grid, "quote"*/
+        font-size: 60px;
+        font-style: italic;
+        text-align: center;
+        margin: 0;
+}
+.design-selection
+.design-archives
+.zen-resources
 
 /*# sourceMappingURL=style.css.map */
